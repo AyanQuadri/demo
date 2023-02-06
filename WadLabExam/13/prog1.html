@@ -1,0 +1,27 @@
+◊<!--ChatGPT-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#show").click(function () {
+                $("p").show();
+            });
+            $("#hide").click(function () {
+                $("p").hide();
+            });
+            $("#toggle").click(function () {$("p").toggle();});
+        });
+    </script>
+</head>
+
+<body>
+    <button id="show">Show </button>
+    <button id="hide"> Hide </button>
+    <button id="toggle"> Toggle </button>
+    <p style="display:none">This is a paragraph text.</p>
+</body>
+
+</html>
